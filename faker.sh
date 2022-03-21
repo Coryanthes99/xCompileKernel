@@ -25,6 +25,7 @@ exit 1
 fi
 fi
 
+<!--
 if ! [ -d "$GCC64_DIR" ]; then
 echo "GCC 64 not found! Cloning to $GCC64_DIR..."
 if ! git clone https://github.com/mvaisakh/gcc-arm64 -b gcc-master --depth=1 $GCC64_DIR; then
@@ -39,7 +40,7 @@ if ! git clone https://github.com/mvaisakh/gcc-arm -b gcc-master --depth=1 $GCC_
 echo "Cloning failed! Aborting..."
 exit 1
 fi
-fi
+fi-->
 
 export KBUILD_BUILD_USER=FakeRiz
 export KBUILD_BUILD_HOST=Umbrella-CI
