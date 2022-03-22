@@ -11,7 +11,7 @@ jobs:
            git config --global user.email "hafizharrizqa15@gmail.com"
            git config --global color.ui false
            git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && cd ..
-           git clone -b staging --depth=1 https://github.com/Coryanthes99/kernel_xiaomi_surya-1 kernul
+           git clone -b staging --depth=1 https://github.com/Zombie-Prjkt/kernel_xiaomi_surya-1 kernul
            cd kernul
            wget https://raw.githubusercontent.com/Coryanthes99/xCompileKernel/main/faker.sh
            source faker.sh
